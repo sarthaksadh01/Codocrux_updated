@@ -3,7 +3,7 @@ session_start();
 date_default_timezone_set("Asia/Kolkata");
 function connect_to_database()
 {
-    $link = mysqli_connect("localhost","avik","iampandey","cryptx");
+    $link = mysqli_connect("us-cdbr-iron-east-05.cleardb.net","b2935a1eb069ef","aee5efc4","heroku_cd87107b3c6ab97");
     if(mysqli_error($link))
     {
       die("Failed connecting to databse.. Please try again!");
