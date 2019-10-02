@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php include("frontend/seo.php")?>
     <title>Codocrux | Team</title>
-
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"> -->
     <!-- </script> -->
@@ -36,7 +34,6 @@
     font-weight: 700;
     src: local("Open Sans Bold"), local("OpenSans-Bold"), url("https://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh480lGh-uXM.woff") format("woff");
 }
-
 body {
 	font-family: "Open Sans";
 	line-height: 24px;
@@ -95,18 +92,14 @@ h4 {
     </style>
 </head>
 <body>
-
 <section id="team" class="text-center section">
   <div class="container">
     <h2><span class="highlight_secondary">Codocrux</span> Team</h2>
-
     <h5>"Alone we can do so little, together we can do so much."
     </h5>
-
     <div class="hr big_size_hr invisible_hr">
         <i class="fa fa-"></i>
     </div>
-
     <div class="row">
       <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
         <div class="team">
@@ -138,43 +131,11 @@ h4 {
           </div><!-- /.team-content -->
         </div><!-- /.team -->
       </div>
-
-
-
     <div class="hr invisible_hr">
         <i class="fa fa-"></i>
     </div>
-
     <div class="row">
-      <div class="col-md-4 col-sm-4 col-xs-4"><!-- add col-md-offset-1 for 5 members -->
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="team_m/Sarthak_sadh.jpg" class="img-circle img-responsive">
-            </a>
-
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Sarthak Sadh</h5></div>
-            <div class="team-role">Web Developer</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-md-4 col-sm-4 col-xs-4">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="team_m/Ankit_Jain.jpg" class="img-circle img-responsive">
-            </a>
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Ankit Jain</h5></div>
-            <div class="team-role">Team Member</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
+  
       <div class="col-md-4 col-sm-4 col-xs-4">
         <div class="team">
           <div class="team-image">
@@ -195,7 +156,6 @@ h4 {
             <a href="#">
               <img src="team_m/Pankaj.jpg" class="img-circle img-responsive">
             </a>
-
           </div><!-- /.team-image -->
           <div class="team-content">
             <div class="team-name"><h5>Pankaj Kaushik</h5></div>
@@ -210,7 +170,6 @@ h4 {
             <a href="#">
               <img src="team_m/kanupriya.jpg" class="img-circle img-responsive">
             </a>
-
           </div><!-- /.team-image -->
           <div class="team-content">
             <div class="team-name"><h5>Kanupriya</h5></div>
@@ -242,12 +201,11 @@ h4 {
         </div><!-- /.team -->
       </div>
     </div>
-
     <div class="hr big_size_hr invisible_hr">
         <i class="fa fa-"></i>
     </div>
-
   </div><!-- /.container -->
 </section>
+<footer class="text-center">Developed by <a href="https://github.com/sarthaksadh01">Sarthak</a>  & <a href="https://github.com/anki2jain">Ankit</a> with ❤️ </footer>
 </body>
 </html>
