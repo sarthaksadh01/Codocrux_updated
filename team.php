@@ -127,7 +127,7 @@ h4 {
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="team_m/gullu.jpg" class="img-circle img-responsive">
+              <img src="team_m/gullu.jpeg" class="img-circle img-responsive">
             </a>
           </div><!-- /.team-image -->
           <div class="team-content">
@@ -150,13 +150,13 @@ h4 {
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="team_m/Sarthak_Sadh.jpg" class="img-circle img-responsive">
+              <img src="team_m/Sarthak_sadh.jpg" class="img-circle img-responsive">
             </a>
 
           </div><!-- /.team-image -->
           <div class="team-content">
             <div class="team-name"><h5>Sarthak Sadh</h5></div>
-            <div class="team-role">Team Member</div>
+            <div class="team-role">Web Developer</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->
