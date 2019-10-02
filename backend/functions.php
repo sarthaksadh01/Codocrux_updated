@@ -92,7 +92,7 @@ $headers .= 'From: <codocrux.infoxpression.in>' . "\r\n";
 
   if(mail($to,$subject,$message,$headers))
   {
-    retmailurn $otp;
+    return $otp;
   }
 
   else return 0;
