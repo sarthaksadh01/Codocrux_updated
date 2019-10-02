@@ -50,56 +50,7 @@ function check_log(email, password) {
 $(document).ready(function() {
 
 
-  $(".snd").click(function(event) {
-    // alert('button');
-
-
-    var name = $("#name").val();
-    var email = $("#email").val();
-    var colg = $("#colg").val();
-    var password = $("#password").val();
-    var crs = $("#crs").val();
-    var error = check_everything(email.trim(), password.trim(), name.trim());
-    if (error === "") {
-
-      $(".otps").hide();
-      $(".circle").show();
-
-      $.ajax({
-        url: '././backend/functions.php',
-        method: 'POST',
-        data: {
-          otp_sent: 'yes',
-          email: email,
-          name:name
-        },
-
-        success: function(html) {
-          if (html == "otp sent successfully!") {
-              alert("otp sent successfully! Please also check your spam folder!")
-            $(".circle").hide();
-            $("#otp").fadeIn(1000);
-            $(".otpr").show();
-          } else {
-
-            alert(html);
-            $(".circle").hide();
-            $(".otps").show();
-          }
-
-
-        }
-
-      });
-
-    } else {
-      alert(error);
-    }
-
-
-    event.preventDefault();
-  });
-
+ 
 
   $(".log").click(function(event) {
 
@@ -144,9 +95,9 @@ $(document).ready(function() {
 
 
   });
+// signup
 
-
-  $(".rotp").click(function(event) {
+  $(".snd").click(function(event) {
 
     var name = $("#name").val();
     var email = $("#email").val();
@@ -154,16 +105,14 @@ $(document).ready(function() {
     var password = $("#password").val();
     var crs = $("#crs").val();
 
-    $(".circle").show();
-    $(".otpr").hide();
-    var otp = $("#otp2").val();
+       $(".otps").hide();
+      $(".circle").show();
 
     $.ajax({
       url: '././backend/functions.php',
       method: 'POST',
       data: {
-        otp_r: 'yes',
-        otp_ans: otp,
+        signup: 'yes',
         email: email,
         password: password,
         colg: colg,
@@ -185,11 +134,10 @@ $(document).ready(function() {
           $("#otp").hide();
           $(".circle").hide();
           $(".otps").show();
-          $("#login").fadeIn(100);
-          $("#signup").hide();
+          login();
         } else {
           $(".circle").hide();
-          $(".otpr").show();
+          $(".otps").show();
           alert(html);
 
         }
