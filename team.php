@@ -112,14 +112,14 @@ h4 {
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="team_m/Sarthak_sadh.jpg" class="img-circle img-responsive">
+              <img src="team_m/Avik.png" class="img-circle img-responsive">
             </a>
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><a href="#"><h5>Sarthak Sadh</h5></a></div>
-            <div class="team-role">Organiser | Web Developer</div>
-            <a href="tel:8076911425">Contact</a>
-            <div class="team-description">8076911425</div>
+            <div class="team-name"><a href="#"><h5>Avik Pandey</h5></a></div>
+            <div class="team-role">Organiser </div>
+            <a href="tel:9910758350">Contact</a>
+            <div class="team-description">9910758350</div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->
       </div>
@@ -127,14 +127,14 @@ h4 {
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="team_m/Ankit_Jain.jpg" class="img-circle img-responsive">
+              <img src="team_m/gullu.jpg" class="img-circle img-responsive">
             </a>
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><a href="#"><h5>Ankit Jain</h5></a></div>
-            <div class="team-role">Organiser | Web Developer</div>
-            <a href="tel:8650605941">Contact</a>
-            <div class="team-description">8650605941</div>
+            <div class="team-name"><a href="#"><h5>Bhanuja Aggarwal</h5></a></div>
+            <div class="team-role">Organiser </div>
+            <a href="tel:9871332989">Contact</a>
+            <div class="team-description">9871332989</div>
           </div><!-- /.team-content -->
         </div><!-- /.team -->
       </div>
@@ -150,12 +150,12 @@ h4 {
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="team_m/Anisha.jpg" class="img-circle img-responsive">
+              <img src="team_m/Sarthak_Sadh.jpg" class="img-circle img-responsive">
             </a>
 
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Anisha Jindal</h5></div>
+            <div class="team-name"><h5>Sarthak Sadh</h5></div>
             <div class="team-role">Team Member</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
@@ -169,7 +169,7 @@ h4 {
             </a>
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Sejal Bhatia</h5></div>
+            <div class="team-name"><h5>Ankit Jain</h5></div>
             <div class="team-role">Team Member</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
@@ -179,26 +179,11 @@ h4 {
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="team_m/Shradha.jpg" class="img-circle img-responsive">
+              <img src="team_m/me.jpg" class="img-circle img-responsive">
             </a>
           </div><!-- /.team-image -->
           <div class="team-content">
-            <div class="team-name"><h5>Shradha Dua</h5></div>
-            <div class="team-role">Team Member</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-      <div class="col-md-4 col-sm-4 col-xs-4">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="team_m/Abhi_Monga.jpg" class="img-circle img-responsive">
-            </a>
-
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Abhinav Monga</h5></div>
+            <div class="team-name"><h5>Parth Arora</h5></div>
             <div class="team-role">Team Member</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
@@ -214,6 +199,21 @@ h4 {
           </div><!-- /.team-image -->
           <div class="team-content">
             <div class="team-name"><h5>Pankaj Kaushik</h5></div>
+            <div class="team-role">Team Member</div>
+            <div class="team-description"></div>
+          </div><!-- /.team-content -->
+        </div><!-- /.team -->
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-4">
+        <div class="team">
+          <div class="team-image">
+            <a href="#">
+              <img src="team_m/kanupriya.jpg" class="img-circle img-responsive">
+            </a>
+
+          </div><!-- /.team-image -->
+          <div class="team-content">
+            <div class="team-name"><h5>Kanupriya</h5></div>
             <div class="team-role">Team Member</div>
             <div class="team-description"></div>
           </div><!-- /.team-content -->
