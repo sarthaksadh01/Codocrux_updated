@@ -57,7 +57,7 @@ else{
       <div class="col-md-12 text-center">
 
 
-        <img style="height:240px; width:400px;" src="https://infoxpression.in/obj/logo1.svg" alt="Star" class="mt-5 star ">
+        <img style="height:240px; width:400px;" src="info_logo.jpeg" alt="Star" class="mt-5 star ">
       </div>
 
 
