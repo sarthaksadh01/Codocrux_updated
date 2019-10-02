@@ -98,7 +98,7 @@ h4 {
 
 <section id="team" class="text-center section">
   <div class="container">
-    <h2><span class="highlight_secondary">CryptX</span> Team</h2>
+    <h2><span class="highlight_secondary">Codocrux</span> Team</h2>
 
     <h5>"Alone we can do so little, together we can do so much."
     </h5>
@@ -112,7 +112,7 @@ h4 {
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="team_m/Avik.png" class="img-circle img-responsive">
+              <img src="team_m/avik.png" class="img-circle img-responsive">
             </a>
           </div><!-- /.team-image -->
           <div class="team-content">
@@ -165,7 +165,7 @@ h4 {
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="team_m/Sejal_Bhatia.jpg" class="img-circle img-responsive">
+              <img src="team_m/Ankit_Jain.jpg" class="img-circle img-responsive">
             </a>
           </div><!-- /.team-image -->
           <div class="team-content">
