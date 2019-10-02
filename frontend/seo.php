@@ -16,6 +16,6 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="frontend/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-<meta name="description" content="Codocrux -Unlock your Sherlock!">
+<meta name="description" content="Codocrux -Knock it down!">
 <meta property="og:type" content="Text" />
 <meta property="og:image" content="frontend/cryptx.png" />
