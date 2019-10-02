@@ -104,6 +104,11 @@ $(document).ready(function() {
     var colg = $("#colg").val();
     var password = $("#password").val();
     var crs = $("#crs").val();
+    var error = check_everything(email,password,name);
+    if(error!=""){
+      alert(error);
+      return;
+    }
 
        $(".otps").hide();
       $(".circle").show();
