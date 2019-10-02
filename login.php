@@ -112,7 +112,7 @@ if(isset($_SESSION['email'])){
     <i class="icon ion-ios-ionic-outline" aria-hidden="true"></i>
     <p style="text-align:left">
 
-•	The contest comprises of 10 questions in total. The duration of the contest is 3 hours.<br><br>
+•	The contest comprises of 9 questions in total. The duration of the contest is 2.5 hours.<br><br>
 •	The participants can move to the next question only if they have answered the current question correctly. <br><br>
 •	Leaderboard rankings will be decided based on the time taken by the participants to complete the contest.<br>
 </p>
