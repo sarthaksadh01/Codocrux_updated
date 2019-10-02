@@ -225,9 +225,9 @@
 
 </head>
 <body>
-<h1 class="text-center">"Cryptx-Leaderboard"</h1><br>
+<h1 class="text-center">"Codocrux-Leaderboard"</h1><br>
 
-<h2 class="text-center ">Unlock your Sherlock</h2>
+<h2 class="text-center ">Dukhi Mat hoie!</h2>
 
 
 
