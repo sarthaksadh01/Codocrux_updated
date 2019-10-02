@@ -273,59 +273,9 @@ function get_completed()
 
 
 
-if(isset($_POST['otp_sent']))
+if(isset($_POST['signup']))
 
 {
-  $link =connect_to_database();
-  $e = $_POST['email'];
-  $e = filter_var($e, FILTER_SANITIZE_EMAIL);
-  $e = strip_tags($e);
-  $nam = $_POST['name'];
-   $nam = strip_tags($nam);
-   $nam = filter_var($nam, FILTER_SANITIZE_STRING);
-  $query2 = "SELECT * FROM `users` WHERE email = '$e'";
-  $result2 = mysqli_query($link,$query2);
-  if($result2){
-    if(mysqli_num_rows($result2)>0){
-      echo "User Already Exist";
-    }
-
-    else{
-
-      $otp = send_otp($_POST['email'],$_POST['name']);
-      if($otp!=0)
-      {
-        $_SESSION['otp'] = $otp;
-    //     $_SESSION['name'] =     $_POST['name'];
-    //      $_SESSION['email'] =    $_POST['email'];
-    // $_SESSION['password'] =     $_POST['password'];
-    // $_SESSION['colg'] =     $_POST['colg'];
-        echo "otp sent successfully!";
-
-      }
-      else echo "Error sending otp please try again";
-
-
-       }
-
-    }
-
-
-   else die("Error!");
-
-}
-
-
-if(isset($_POST['otp_r']))
-
-{
-
-if(isset($_SESSION['otp']))
-{
-$o = filter_var($_POST['otp_ans'], FILTER_SANITIZE_NUMBER_INT);
-  if($o=='865807'|| $o==$_SESSION['otp'] )
-  {
-
     $link = connect_to_database();
      $name = filter_var($_POST['name'],FILTER_SANITIZE_STRING);
       $name= strip_tags($name);
@@ -347,13 +297,7 @@ $result = mysqli_query($link,$query);
     }
     else echo "Unkown error occured ";
 
-  }
-  else echo "Incorrect otp!";
 }
-else echo 'otp Expired!';
-
-}
-
 
 
 
