@@ -120,7 +120,7 @@ h4 {
         <div class="team">
           <div class="team-image">
             <a href="#">
-              <img src="team_m/gullu.jpeg" class="img-circle img-responsive" style="height:100px; width: 100px;">
+              <img src="team_m/gullu.jpeg" class="img-circle img-responsive" ">
             </a>
           </div><!-- /.team-image -->
           <div class="team-content">
