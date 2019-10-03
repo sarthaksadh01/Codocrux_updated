@@ -178,29 +178,7 @@ h4 {
           </div><!-- /.team-content -->
         </div><!-- /.team -->
       </div>
-      <div class="col-md-4 col-sm-4 col-xs-4">
-        <div class="team">
-          <div class="team-image">
-            <a href="#">
-              <img src="team_m/Omisha.jpg" class="img-circle img-responsive">
-            </a>
-            <div class="team-links">
-              <div class="team-links-list">
-                <a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
-                <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="#" target="_blank"><i class="fa fa-linked"></i></a>
-                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-              </div><!-- /.team-links-list -->
-            </div><!-- /.team-links -->
-          </div><!-- /.team-image -->
-          <div class="team-content">
-            <div class="team-name"><h5>Omisha</h5></div>
-            <div class="team-role">Team Member</div>
-            <div class="team-description"></div>
-          </div><!-- /.team-content -->
-        </div><!-- /.team -->
-      </div>
-    </div>
+ 
     <div class="hr big_size_hr invisible_hr">
         <i class="fa fa-"></i>
     </div>
