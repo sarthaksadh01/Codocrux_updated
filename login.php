@@ -39,7 +39,7 @@ if(isset($_SESSION['email'])){
 
   <div class="info" >
     <h1><strong ><bold>CODOCRUX</bold></strong></h2>
-    <h4>Oct 8, 2019 | 9PM-12AM</h4>
+    <h4>Oct 8, 2019 | 9:30PM-12AM</h4>
 
 
     <p id="crypt" style="text-align:center;font-size:20px;padding-top:50px;">
