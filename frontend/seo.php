@@ -19,3 +19,8 @@
 <meta name="description" content="Codocrux -Knock it down!">
 <meta property="og:type" content="Text" />
 <meta property="og:image" content="frontend/cryptx.png" />
+if($_SERVER["HTTPS"] != "on")
+{
+    header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
+    exit();
+}
