@@ -20,3 +20,11 @@
 <meta property="og:type" content="Text" />
 <meta property="og:image" content="frontend/cryptx.png" />
 
+<script>
+  
+  if(location.protocol=="http:"){
+   window.location.href = "https://"+window.location.host+window.location.pathname; 
+    
+  }
+  
+</script>
